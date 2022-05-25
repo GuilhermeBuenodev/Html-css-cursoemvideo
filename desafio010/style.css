@@ -1,0 +1,56 @@
+body  {
+  background-color: #B1EBBD;
+}
+
+.cabecalho {
+  background: linear-gradient( #4FEB81, #00EB27 );
+}
+
+.titulo-cabecalho {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.paragrafo-cabecalho {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.903);
+}
+
+.navegacao-cabecalho {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  gap: 10px;
+  padding: 5px;
+}
+
+.navegacao-cabecalho > a {
+  text-decoration: none;
+  color: white;
+}
+
+.navegacao-cabecalho >a:hover {
+  text-decoration: underline;
+}
+
+
+main {
+  background-color: white;
+}
+
+.titulo-section {
+  color: forestgreen;
+  margin: 10px;
+}
+
+.paragrafo-section {
+  margin: 10px;
+  text-align: justify;
+  font-family: arial;
+}
+
+.link-section {
+  text-decoration: none;
+  color: rgb(0, 107, 48);
+}
